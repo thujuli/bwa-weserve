@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeServe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <style>
+      @font-face {
+        font-family: "Clash Display";
+        src: url(fonts/ClashDisplay-Semibold.woff);
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F1F4F5] font-['Poppins']">
+    <nav
+      class="max-w-[1130px] mx-auto flex flex-row justify-between items-center mt-[39px]"
+    >
+      <img src="assets/logo.svg" alt="logo" />
+      <ul class="flex flex-row gap-x-[30px] font-medium text-indigo-950">
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <div class="flex flex-row gap-x-[10px] items-center">
+        <div class="p-[10px] bg-white rounded-full">
+          <img src="assets/bag-2.svg" alt="shop" />
+        </div>
+        <a
+          href="#"
+          class="bg-indigo-950 py-[10px] px-[30px] rounded-full text-white font-semibold"
+          >Sign In</a
+        >
+      </div>
+    </nav>
+
+    <section
+      class="max-w-[1130px] mx-auto mt-[100px] flex flex-row justify-between"
+    >
+      <div class="flex flex-col gap-y-10 justify-center">
+        <div class="flex flex-row bg-white py-2 px-4 rounded-full w-fit">
+          <img src="assets/globe.svg" alt="globe" />
+          <p class="font-semibold text-indigo-950">
+            We host more than 120,000 websites
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-[10px]">
+          <h1
+            class="leading-none text-6xl text-indigo-950"
+            style="font-weight: 500; font-family: 'Clash Display'"
+          >
+            Grow Online <br />
+            Business Faster.
+          </h1>
+          <p class="text-slate-500 font-medium mt-[10px] leading-relaxed">
+            We provide a variety of servers to grow your users <br />
+            acquisition much user-friendly and boosting up sales.
+          </p>
+        </div>
+        <div class="flex flex-row items-center gap-x-5">
+          <a
+            href="#"
+            class="px-10 py-4 rounded-full bg-violet-700 text-white font-bold"
+            >Try Free Trial</a
+          >
+          <div class="flex flex-row gap-x-[10px]">
+            <img src="assets/device-msg.svg" alt="device-msg" />
+            <p class="text-violet-700 font-semibold">Schedule a Demo</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <img
+          src="assets/illustration-1.png"
+          alt="person"
+          class="max-w-[500px]"
+        />
+      </div>
+    </section>
+
+    <section
+      class="partner flex flex-row mt-[100px] gap-x-[50px] justify-center"
+    >
+      <img src="assets/partner-1.svg" alt="partner 1" />
+      <img src="assets/partner-2.svg" alt="partner 2" />
+      <img src="assets/partner-3.svg" alt="partner 3" />
+      <img src="assets/partner-4.svg" alt="partner 4" />
+      <img src="assets/partner-5.svg" alt="partner 5" />
+    </section>
+
+    <section class="flex flex-col mt-[100px] items-center gap-y-[30px]">
+      <h2
+        class="leading-none text-5xl text-indigo-950"
+        style="font-weight: 500; font-family: 'Clash Display'"
+      >
+        Your Best Choice
+      </h2>
+      <div class="flex flex-row gap-x-[30px]">
+        <div
+          class="bg-white rounded-xl py-[30px] pr-5 pl-6 flex flex-col gap-y-[30px]"
+        >
+          <img src="assets/hierarchy-square.svg" class="max-w-[46px]" />
+          <div>
+            <h3 class="text-indigo-950 text-xl font-bold">Extra Layers</h3>
+            <p class="text-slate-500 leading-relaxed">
+              Making your project more <br />
+              secure avoiding DDoS
+            </p>
+          </div>
+          <a href="#" class="text-violet-700 font-semibold">Learn More</a>
+        </div>
+        <div
+          class="bg-white rounded-xl py-[30px] pr-5 pl-6 flex flex-col gap-y-[30px]"
+        >
+          <img src="assets/3dcube.svg" class="max-w-[46px]" />
+          <div>
+            <h3 class="text-indigo-950 text-xl font-bold">Customizable</h3>
+            <p class="text-slate-500 leading-relaxed">
+              Only install what your <br />
+              business needs to grow
+            </p>
+          </div>
+          <a href="#" class="text-violet-700 font-semibold">Learn More</a>
+        </div>
+        <div class="bg-indigo-950 rounded-xl relative">
+          <img src="assets/ellipse-2.png" class="absolute top-0 right-0" />
+          <div
+            class="py-[30px] pr-5 pl-6 flex flex-col gap-y-[30px] z-10 relative"
+          >
+            <img src="assets/status-up.svg" class="max-w-[46px]" />
+            <h3 class="text-white text-xl font-bold">AI Automation</h3>
+            <p class="text-slate-500 leading-relaxed">
+              Decide the business flow <br />
+              based on latest reports
+            </p>
+            <a href="#" class="text-white font-semibold">Learn More</a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-xl py-[30px] pr-5 pl-6 flex flex-col gap-y-[30px]"
+        >
+          <img src="assets/driver-refresher.svg" class="max-w-[46px]" />
+          <div>
+            <h3 class="text-indigo-950 text-xl font-bold">Auto-Scaling</h3>
+            <p class="text-slate-500 leading-relaxed">
+              Have a long weekend <br />
+              without worrying any loss
+            </p>
+          </div>
+          <a href="#" class="text-violet-700 font-semibold">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="max-w-[1130px] mx-auto flex flex-row gap-x-[70px] mt-[100px]"
+    >
+      <div class="flex flex-col justify-center">
+        <img src="assets/illustration_2.png" class="max-w-[500px]" />
+      </div>
+      <div class="flex flex-col gap-y-10">
+        <div>
+          <h2
+            class="leading-none text-5xl text-indigo-950"
+            style="font-weight: 500; font-family: 'Clash Display'"
+          >
+            We Have Very <br />
+            Strong Ecosystem
+          </h2>
+          <p class="text-slate-500 mt-[10px] font-medium">
+            We provide a variety of servers to grow your users <br />
+            acquisition much user-friendly and boosting up sales.
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-5">
+          <div class="bg-white rounded-xl">
+            <div class="flex flex-row gap-x-4 p-5">
+              <img src="assets/health.svg" />
+              <div>
+                <h3 class="text-indigo-950 text-xl font-bold">
+                  &#65284;880 Mio
+                </h3>
+                <p class="text-slate-500">Company budget saved</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl">
+            <div class="flex flex-row gap-x-4 p-5">
+              <img src="assets/cpu-charger.svg" />
+              <div>
+                <h3 class="text-indigo-950 text-xl font-bold">450,392</h3>
+                <p class="text-slate-500">All servers available</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl">
+            <div class="flex flex-row gap-x-4 p-5">
+              <img src="assets/cloud-add.svg" />
+              <div>
+                <h3 class="text-indigo-950 text-xl font-bold">189 Mio</h3>
+                <p class="text-slate-500">Websites are running good</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row items-center gap-x-5">
+          <a
+            href="#"
+            class="px-10 py-4 rounded-full bg-violet-700 text-white font-bold"
+            >Explore More</a
+          >
+          <div class="flex flex-row gap-x-[10px]">
+            <img src="assets/device-msg.svg" alt="device-msg" />
+            <p class="text-violet-700 font-semibold">Schedule a Demo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-y-[30px] mt-[100px]">
+      <div>
+        <h2
+          class="leading-none text-5xl text-indigo-950 text-center"
+          style="font-weight: 500; font-family: 'Clash Display'"
+        >
+          Our Showcase
+        </h2>
+        <p
+          class="mt-[10px] font-medium text-center text-slate-500 leading-relaxed"
+        >
+          They built amazing website to help more people around the world <br />
+          by using our recommendation services and products
+        </p>
+      </div>
+      <div class="flex flex-row gap-x-10">
+        <div
+          style="background-image: url(assets/showcase-1.png)"
+          class="w-80 h-[220px] rounded-xl overflow-hidden bg-cover hover:ring-violet-700 hover:ring-4 transition duration-700 ease-in-out relative group"
+        >
+          <div
+            class="opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out absolute top-[146px] left-0 right-0"
+          >
+            <div class="flex flex-row justify-center">
+              <button
+                class="py-[10px] px-[30px] rounded-full font-semibold text-white bg-violet-700 shadow-lg shadow-violet-700"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          style="background-image: url(assets/showcase-2.png)"
+          class="w-80 h-[220px] rounded-xl overflow-hidden bg-cover hover:ring-violet-700 hover:ring-4 transition duration-700 ease-in-out relative group"
+        >
+          <div
+            class="opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out absolute top-[146px] left-0 right-0"
+          >
+            <div class="flex flex-row justify-center">
+              <button
+                class="py-[10px] px-[30px] rounded-full font-semibold text-white bg-violet-700 shadow-lg shadow-violet-700"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          style="background-image: url(assets/showcase-3.png)"
+          class="w-80 h-[220px] rounded-xl overflow-hidden bg-cover hover:ring-violet-700 hover:ring-4 transition duration-700 ease-in-out relative group"
+        >
+          <div
+            class="opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out absolute top-[146px] left-0 right-0"
+          >
+            <div class="flex flex-row justify-center">
+              <button
+                class="py-[10px] px-[30px] rounded-full font-semibold text-white bg-violet-700 shadow-lg shadow-violet-700"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          style="background-image: url(assets/showcase-4.png)"
+          class="w-80 h-[220px] rounded-xl overflow-hidden bg-cover hover:ring-violet-700 hover:ring-4 transition duration-700 ease-in-out relative group"
+        >
+          <div
+            class="opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out absolute top-[146px] left-0 right-0"
+          >
+            <div class="flex flex-row justify-center">
+              <button
+                class="py-[10px] px-[30px] rounded-full font-semibold text-white bg-violet-700 shadow-lg shadow-violet-700"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-y-[30px] mt-[100px]"></section>
+  </body>
+</html>
